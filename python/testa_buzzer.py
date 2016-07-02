@@ -11,11 +11,14 @@ GPIO.setwarnings(False)
 
 GPIO.setup(22, GPIO.OUT)
 
-while True:
-	GPIO.output(22, 0)
+try:
+	while True:
+		GPIO.output(22, 0)
 
-	time.sleep(tempo)
+		time.sleep(tempo)
 
-	GPIO.output(22, 1)
+		GPIO.output(22, 1)
 
-	time.sleep(tempo)
+		time.sleep(tempo)
+except KeyboardInterrupt:
+	GPIO.cleanup()

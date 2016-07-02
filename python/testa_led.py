@@ -23,14 +23,17 @@ def apagaled(pino_led):
     GPIO.output(pino_led, 0)
     return
 
-while True:      
-  acendeled(17)
+try:
+	while True:      
+	  acendeled(17)
 
-  time.sleep(tempo)
+	  time.sleep(tempo)
 
-  apagaled(17)
-  acendeled(27)
+	  apagaled(17)
+	  acendeled(27)
 
-  time.sleep(tempo)
+	  time.sleep(tempo)
 
-  apagaled(27)
+	  apagaled(27)
+except KeyboardInterrupt:
+	GPIO.cleanup()
