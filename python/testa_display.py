@@ -15,11 +15,12 @@ lcd_d6        = 20
 lcd_d7        = 21
 lcd_backlight = 4
 
-
 lcd_colunas = 16
 lcd_linhas  = 2
 
 lcd = LCD.Adafruit_CharLCD(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7, lcd_colunas, lcd_linhas, lcd_backlight)
+
+print 'Pressione Ctrl-C para encerrar a aplicacao.'
 
 try:
 	while True:
@@ -37,5 +38,7 @@ try:
 			time.sleep(tempo)
 			lcd.move_left()
 except KeyboardInterrupt:
+	print 'Ctrl+C capturado, encerrando aplicacao.'
+
 	lcd.clear()
 	GPIO.cleanup()
