@@ -1,5 +1,5 @@
 # RaspberryPi_Project_LibAcesso
-Projeto com exemplo de uma protopitapação para um sistema de liberação de acesso usando Raspberry pi B+ e Python. Para essa projetos, foi usado os seguintes componentes:
+Projeto com exemplo de uma protopitapação para um sistema de liberação de acesso usando Raspberry pi B+ com Respbian e Python. Para essa projetos, foi usado os seguintes componentes:
 
  - Protoboard 830 pontos
  - Led vermelho e verde
