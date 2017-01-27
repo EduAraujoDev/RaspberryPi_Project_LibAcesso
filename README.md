@@ -14,7 +14,7 @@ Projeto com exemplo de uma protopitapação para um sistema de liberação de ac
 
 Abaixo a diagramação do projeto usando o Fritzing
 
-![](http://eduaraujodev.com/imagens/Project_LibAcesso.jpg)
+![](https://github.com/EduAraujoDev/RaspberryPi_Project_LibAcesso/blob/master/Doc/Project_LibAcesso.jpg?raw=true)
 
 ### Observações
 
